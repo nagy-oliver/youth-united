@@ -3,6 +3,12 @@
     border-radius: 50px;
 }
 
+.article {
+    background-color: #F8F8FF;
+    border-radius: 50px;
+    padding: 50px 50px;
+}
+
 .yellowtext {
     color: #FFFD82;
 }
