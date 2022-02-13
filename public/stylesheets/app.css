@@ -3,12 +3,6 @@
     border-radius: 50px;
 }
 
-.article {
-    background-color: #F8F8FF;
-    border-radius: 50px;
-    padding: 50px 50px;
-}
-
 .yellowtext {
     color: #FFFD82;
 }
@@ -67,6 +61,20 @@ a {
     margin-bottom: 30px;
 }
 
+.article {
+    background-color: #F8F8FF;
+    border-radius: 50px;
+    padding: 50px 50px;
+}
+
+.article h5 {
+    margin-bottom: 20px;
+}
+
+.article img {
+    width: 100%;
+}
+
 
 
 .logo {
@@ -88,7 +96,7 @@ a {
 }
 
 #large {
-    font-size: 10rem;
+    font-size: 9.5rem;
     text-align: center;
 }
 
