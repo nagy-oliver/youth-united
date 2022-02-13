@@ -1,0 +1,122 @@
+#white {
+    background-color: #F8F8FF;
+    border-radius: 50px;
+}
+
+.yellowtext {
+    color: #FFFD82;
+}
+a.yellowtext:hover {
+    color: #dfdc4a;
+}
+
+.tealtext {
+    color: #03989E;
+}
+
+.bluetext {
+    /*font-size: 10px;*/
+    color: #0047AB;
+}
+
+.whitetext {
+    color: #F8F8FF;
+}
+
+
+
+body {
+    background-color: #1D2951; 
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #1D2951;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 60%
+}
+
+.container-small {
+    width: 50%   
+}
+
+.profile-pic {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.member-body {
+    vertical-align: top;
+}
+
+.flag {
+    height: 20px;
+    display: inline-block;
+}
+
+.subpart {
+    margin-bottom: 30px;
+}
+
+
+
+.logo {
+    position: fixed;
+    top: 0px;
+    right: 80%
+}
+
+.logo img {
+    width: 150px;
+}
+
+#home {
+    color: #F8F8FF;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#large {
+    font-size: 10rem;
+    text-align: center;
+}
+
+#footer {
+    color: #F8F8FF;
+    padding: 50px 0;
+}
+
+#white {
+    padding: 50px 0;
+}
+
+.post {
+    background-color: #E4E9FB;
+    color: #1D2951;
+    border-radius: 30px;
+    margin: 10px 0;
+    padding: 30px 30px;
+}
+
+.event {
+    margin-bottom: 30px;
+}
+
+.member {
+    background-color: #E4E9FB;
+    border-radius: 20px;
+    width: 48%;
+    margin: 10px 1%;
+    padding: 10px 10px;
+    
+}
+
+.member-body {
+    display: inline-block;
+}
+
