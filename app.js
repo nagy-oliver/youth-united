@@ -13,9 +13,9 @@ app.get("/posts/:post", (req, res) => {
     res.render("posts/" + req.params.post)
 })
 
-/*app.get("*", (req, res) => {
+app.get("*", (req, res) => {
     res.redirect("/")
-})*/
+})
 
 app.listen(PORT, () => {
     console.log("Listening on " + PORT)
