@@ -15,9 +15,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- navbar -->
+    <nav class="fixed-top navbarcontent d-flex flex-column justify-content-center">
+        <div class="container d-flex mx-auto justify-content-around">
+            <a href="#articles" class="whitetext">Recent Articles</a>
+            <a href="#history" class="whitetext">History</a>
+            <a href="#future" class="whitetext">Our Future</a>
+            <a href="#team" class="whitetext">The Team</a>
+        </div>
+    </nav>
     <div class="logo">
-        <img src="/images/logo.jpg" alt="">
+        <a href="#">
+            <img src="/images/logo.jpg" alt="">
+        </a>
     </div>
     <div id="home">
         <div id="large"><b>Youth United</b></div>
@@ -32,8 +41,9 @@
     </div>
     <div id="white">
         <div class="container">
-            <div class="subpart">
-                <h1 class="bluetext display-2">Recent articles</h1>
+            <div id="articles">
+                <div class="filler"></div>
+                <h1 class="bluetext display-2">Recent Articles</h1>
                 <a href="posts/post1">
                     <div class="post">
                         <h2>The liquidation of the Belarussian Youth European Parliament</h2>
@@ -53,7 +63,8 @@
                     </div>
                 </a>
             </div>
-            <div class="subpart">
+            <div id="history">
+                <div class="filler"></div>
                 <h1 class="bluetext display-2">History</h1>
                 <div class="event">
                     <h5 class="tealtext">19. January 2020</h5>
@@ -99,12 +110,14 @@
                     </h5>
                 </div>
             </div>
-            <div class="subpart">
+            <div id="future">
+                <div class="filler"></div>
                 <h1 class="bluetext display-2">Our Future</h1>
                 <h5>We plan on continuing the already-established model of information-sharing through external media. However, our main focus is now expanding our own platform as European storytellers, telling graceful and uplifting content meant to vitalize youth around Europe in the creation of an activism-based youth scene.</h5>
                 <h5>However, to be successful in our endeavors, we need more resources. While we already have young people who are ready to support us voluntarily, we also need financial resources to keep our website running. If you want to support us, please contact our organizational manager Artem Belkov and consider supporting us on Patreon.</h5>
             </div>
-            <div class="subpart">
+            <div id="team">
+                <div class="filler"></div>
                 <h1 class="bluetext display-2">The Team</h1>
                 <h5>Currently consisting of 15 aspiring young Europeans, including Young European Ambassadors to the Eastern Partnership, previous winners of the European Citizen's prize, and many others, our team proudly supports solidarity between all people on the European continent.</h5>
                 <div>

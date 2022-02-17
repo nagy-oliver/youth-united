@@ -1,13 +1,5 @@
-#white {
-    background-color: #F8F8FF;
-    border-radius: 50px;
-}
-
-.yellowtext {
+.yellowtext, .yellowtext:hover {
     color: #FFFD82;
-}
-a.yellowtext:hover {
-    color: #dfdc4a;
 }
 
 .tealtext {
@@ -19,7 +11,7 @@ a.yellowtext:hover {
     color: #0047AB;
 }
 
-.whitetext {
+.whitetext, .whitetext:hover {
     color: #F8F8FF;
 }
 
@@ -33,6 +25,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .container {
@@ -57,10 +53,6 @@ a {
     display: inline-block;
 }
 
-.subpart {
-    margin-bottom: 30px;
-}
-
 .article {
     background-color: #F8F8FF;
     border-radius: 50px;
@@ -75,16 +67,53 @@ a {
     width: 100%;
 }
 
+.filler {
+    height: 70px
+}
+
 
 
 .logo {
     position: fixed;
     top: 0px;
-    right: 80%
+    right: 80%;
+    margin-right: 10px;
+    z-index: 9999;
 }
 
 .logo img {
     width: 150px;
+}
+
+/*nav {
+    height: 100px;
+}
+nav div {
+    height: 100px;
+}
+
+.navbarcontent {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-direction: row;
+}*/
+
+.navbarcontent {
+    height: 70px;
+    background-color: #1D2951;
+    font-size: larger;
+}
+.navbarcontent div {
+    vertical-align: middle;
+}
+.navbarcontent a {
+    font-size: 1.5rem;
+}
+.navbarcontent a:hover {
+    color: #F8F8FF;
+    text-decoration: underline;
 }
 
 #home {
@@ -106,7 +135,16 @@ a {
 }
 
 #white {
-    padding: 50px 0;
+    background-color: #F8F8FF;
+    border-radius: 50px;
+    padding-bottom: 70px;
+}
+
+#articles a:hover div {
+    background-color: #dbe0f1;
+}
+#articles a:hover {
+    text-decoration: none;
 }
 
 .post {
@@ -135,7 +173,7 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-    .logo {
+    .logo, nav {
         display: none;
     }
     
