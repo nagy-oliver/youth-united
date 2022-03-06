@@ -59,6 +59,10 @@ a:hover {
     padding: 50px 50px;
 }
 
+.article h4 {
+    font-weight: bold;
+}
+
 .article h5 {
     margin-bottom: 20px;
 }
