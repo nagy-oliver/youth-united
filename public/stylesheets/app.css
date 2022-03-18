@@ -32,11 +32,11 @@ a:hover {
 }
 
 .container {
-    width: 60%
+    width: 60%;
 }
 
 .container-small {
-    width: 50%   
+    width: 50%;
 }
 
 .profile-pic {
@@ -72,7 +72,7 @@ a:hover {
 }
 
 .filler {
-    height: 70px
+    height: 70px;
 }
 
 
@@ -166,7 +166,7 @@ nav div {
 .member {
     background-color: #E4E9FB;
     border-radius: 20px;
-    width: 48%;
+    /*width: 48%;*/
     margin: 10px 1%;
     padding: 10px 10px;
     
@@ -176,9 +176,20 @@ nav div {
     display: inline-block;
 }
 
-@media screen and (max-width: 768px) {
-    .logo, nav {
-        display: none;
+@media screen and (max-width: 992px) {
+    #navbar {
+        display: none !important;
+    }
+
+    .container {
+        width: 90%;
     }
     
+    #large {
+        font-size: 6rem;
+    }
+
+    .logo img {
+        width: 80px;
+    }
 }
