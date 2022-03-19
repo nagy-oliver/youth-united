@@ -227,7 +227,7 @@ nav div {
     }
 }
 
-@media screen and (max-width: 462px) {
+@media screen and (max-width: 470px) {
     /* .email {
         display: none;
     }
@@ -246,6 +246,9 @@ nav div {
     }
 
     .container {
-        width: calc(90% + 10vw);
+        width: calc(82% + 10vw);
+    }
+    .profile-pic {
+        width: 25vw;
     }
 }
