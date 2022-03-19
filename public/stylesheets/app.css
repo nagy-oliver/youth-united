@@ -40,13 +40,11 @@ a:hover {
 
 .profile-pic {
     width: 25%;
-    /*width: 100px;*/
     border-radius: 50%;
 }
 
 .member-body {
     vertical-align: top;
-    /* font-size: 100%; */
 }
 
 .responsive {
@@ -102,21 +100,6 @@ a:hover {
 .logo img {
     width: 150px;
 }
-
-/*nav {
-    height: 100px;
-}
-nav div {
-    height: 100px;
-}
-
-.navbarcontent {
-    position: fixed;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    flex-direction: row;
-}*/
 
 .navbarcontent {
     height: 70px;
@@ -181,7 +164,6 @@ nav div {
 .member {
     background-color: #E4E9FB;
     border-radius: 20px;
-    /*width: 48%;*/
     margin: 10px 1%;
     padding: 10px 10px;
     
@@ -250,5 +232,13 @@ nav div {
     }
     .profile-pic {
         width: 25vw;
+    }
+
+    .article {
+        padding: 20px 20px;
+        width: 100%;
+    }
+    .container.whitetext {
+        margin-top: 20px;
     }
 }
