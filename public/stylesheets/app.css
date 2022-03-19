@@ -7,7 +7,6 @@
 }
 
 .bluetext {
-    /*font-size: 10px;*/
     color: #0047AB;
 }
 
@@ -40,12 +39,27 @@ a:hover {
 }
 
 .profile-pic {
-    width: 100px;
+    width: 25%;
+    /*width: 100px;*/
     border-radius: 50%;
 }
 
 .member-body {
     vertical-align: top;
+    /* font-size: 100%; */
+}
+
+.responsive {
+    font-size: 1vw;
+}
+
+.responsive-4 {
+    font-size: 1.5vw;
+}
+
+.responsive-3 {
+    font-size: 1.75vw;
+    margin-bottom: 5px;
 }
 
 .flag {
@@ -131,6 +145,7 @@ nav div {
 #large {
     font-size: 9.5rem;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #footer {
@@ -189,7 +204,25 @@ nav div {
         font-size: 6rem;
     }
 
+    .logo {
+        left:10px;
+    }
+
     .logo img {
         width: 80px;
+    }
+
+    .profile-pic {
+        width: 100px;
+    }
+
+    .responsive {
+        font-size: 1rem;
+    }
+    .responsive-4 {
+        font-size: 1.5rem;
+    }
+    .responsive-3 {
+        font-size: 1.75rem;
     }
 }
