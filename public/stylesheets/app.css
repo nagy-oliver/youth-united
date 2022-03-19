@@ -226,3 +226,26 @@ nav div {
         font-size: 1.75rem;
     }
 }
+
+@media screen and (max-width: 462px) {
+    /* .email {
+        display: none;
+    }
+    .dev-manager {
+        display: block;
+    } */
+
+    .responsive {
+        font-size: 3vw;
+    }
+    .responsive-4 {
+        font-size: 4.5vw;
+    }
+    .responsive-3 {
+        font-size: 5vw;
+    }
+
+    .container {
+        width: calc(90% + 10vw);
+    }
+}
